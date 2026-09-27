@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#031a3a">
+  <meta name="description" content="ProyecLab — Sausal en un solo lugar. Descubre, conecta y valora Sausal.">
+  <title>ProyecLab — Sausal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="site-glow"></div>
+
+  <!-- ============================= -->
+  <!-- BARRA SUPERIOR -->
+  <!-- ============================= -->
+
+  <header class="topbar">
+
+    <a class="brand" href="#inicio" aria-label="ProyecLab inicio">
+
+      <span class="brand-logo" aria-hidden="true">
+
+        <svg viewBox="0 0 100 100" role="img">
+
+          <defs>
+
+            <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#16d9ff"/>
+              <stop offset="1" stop-color="#0877ff"/>
+            </linearGradient>
+
+            <linearGradient id="lg2" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#9be83a"/>
+              <stop offset="1" stop-color="#12a85a"/>
+            </linearGradient>
+
+          </defs>
+
+          <circle
+            cx="50"
+            cy="50"
+            r="47"
+            fill="#031d3e"
+            stroke="#16cfff"
+            stroke-width="3"
+          />
+
+          <circle
+            cx="50"
+            cy="50"
+            r="39"
+            fill="#071b36"
+            stroke="#fff"
+            stroke-width="2"
+            opacity=".9"
+          />
+
+          <path
+            d="M22 59 L39 40 L48 49 L61 31 L79 55 L79 72 L22 72Z"
+            fill="url(#lg1)"
+            stroke="#fff"
+            stroke-width="3"
+            stroke-linejoin="round"
+          />
+
+          <path
+            d="M22 72 Q49 57 79 72"
+            fill="none"
+            stroke="#fff"
+            stroke-width="3"
+          />
+
+          <path
+            d="M63 67 Q68 50 81 49 Q82 63 72 70 Q67 73 63 67Z"
+            fill="url(#lg2)"
+            stroke="#fff"
+            stroke-width="2"
+          />
+
+          <text
+            x="50"
+            y="84"
+            text-anchor="middle"
+            fill="#fff"
+            font-size="8"
+            font-weight="900"
+          >
+            ProyecLab
+          </text>
+
+        </svg>
+
+      </span>
+
+      <span class="brand-text">
+        <strong>Proyec<span>Lab</span></strong>
+        <small>— SAUSAL —</small>
+      </span>
+
+    </a>
+
+
+    <!-- MENÚ -->
+
+    <nav class="nav" id="nav">
+
+      <a href="#inicio" class="active">
+        <span>⌂</span>
+        Inicio
+      </a>
+
+      <a href="#categorias">
+        <span>▣</span>
+        Categorías
+        <b>⌄</b>
+      </a>
+
+      <a href="#historia">
+        <span>▤</span>
+        Historia
+      </a>
+
+      <a href="#mapa">
+        <span>●</span>
+        Mapa
+      </a>
+
+      <a href="#contacto">
+        <span>✉</span>
+        Contacto
+      </a>
+
+    </nav>
+
+
+    <!-- WHATSAPP -->
+
+    <a
+      class="whatsapp-top"
+      href="https://wa.me/51972372645?text=Hola%20ProyecLab,%20quiero%20una%20recomendaci%C3%B3n%20de%20un%20lugar%20en%20Sausal."
+      target="_blank"
+      rel="noopener"
+    >
+      <span>◉</span>
+      Pedir recomendaciones
+    </a>
+
+
+    <!-- MENÚ MÓVIL -->
+
+    <button
+      class="menu-btn"
+      id="menu"
+      aria-label="Abrir menú"
+    >
+      ☰
+    </button>
+
+  </header>
+
+
+  <!-- ============================= -->
+  <!-- CONTENIDO PRINCIPAL -->
+  <!-- ============================= -->
+
+  <main>
+
+
+    <!-- ============================= -->
+    <!-- HERO -->
+    <!-- ============================= -->
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          Descubre · Apoya · Crece
+        </div>
+
+
+        <h1>
+          Todo lo que necesitas
+          <br>
+          <span>en un solo lugar</span>
+        </h1>
+
+
+        <p>
+          ProyecLab es una plataforma creada para conectar a
+          <br class="desktop">
+          la comunidad de Sausal con sus mejores lugares,
+          <br class="desktop">
+          servicios y oportunidades.
+        </p>
+
+
+        <div class="hero-pills">
+
+          <a href="#categorias">
+            <span>▣</span>
+            Comercio local
+          </a>
+
+          <a href="#categorias">
+            <span>⚙</span>
+            Servicios
+          </a>
+
+          <a href="#categorias">
+            <span>🎓</span>
+            Educación
+          </a>
+
+          <a href="#categorias">
+            <span>👥</span>
+            Comunidad
+          </a>
+
+        </div>
+
+
+        <div class="hero-slogan">
+          ¡Juntos hacemos
+          <br>
+          un mejor Sausal!
+        </div>
+
+      </div>
+
+
+      <!-- EMBLEMA -->
+
+      <div class="hero-emblem" aria-hidden="true">
+
+        <div class="emblem-ring"></div>
+
+        <div class="emblem-inner">
+
+          <div class="emblem-mark">
+            ⌁
+          </div>
+
+          <div class="emblem-title">
+            Proyec<span>Lab</span>
+          </div>
+
+          <div class="emblem-sub">
+            — SAUSAL —
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- BUSCADOR -->
+    <!-- ============================= -->
+
+    <section
+      class="search-wrap"
+      aria-label="Buscador"
+    >
+
+      <div class="search-box">
+
+        <span class="search-icon">
+          ⌕
+        </span>
+
+        <input
+          id="globalSearch"
+          type="search"
+          placeholder="Buscar lugares, servicios o categorías..."
+          autocomplete="off"
+        >
+
+        <button
+          id="globalClear"
+          class="search-clear"
+          title="Limpiar"
+        >
+          ×
+        </button>
+
+        <button id="globalSearchBtn">
+          ⌕ &nbsp; Buscar
+        </button>
+
+      </div>
+
+      <div
+        id="globalResults"
+        class="global-results hidden"
+      ></div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- CATEGORÍAS -->
+    <!-- ============================= -->
+
+    <section
+      class="section categories-section"
+      id="categorias"
+    >
+
+      <div class="section-head">
+
+        <div>
+
+          <h2>
+            🌿
+            <span>Categorías</span>
+          </h2>
+
+          <p>
+            Explora todo lo que Sausal tiene para ti
+          </p>
+
+        </div>
+
+        <button id="allCategories">
+          Ver todas las categorías →
+        </button>
+
+      </div>
+
+
+      <div class="category-grid">
+
+
+        <!-- COMIDA -->
+
+        <button
+          class="category-card food active"
+          data-cat="comida"
+        >
+
+          <div class="cat-image">
+            🍗
+          </div>
+
+          <div class="cat-icon">
+            🍴
+          </div>
+
+          <h3>
+            Comida
+          </h3>
+
+          <p>
+            Restaurantes, pollerías,
+            <br>
+            cevicherías y más.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+
+        <!-- SERVICIOS -->
+
+        <button
+          class="category-card services"
+          data-cat="servicios"
+        >
+
+          <div class="cat-image">
+            🛠️
+          </div>
+
+          <div class="cat-icon">
+            🛠
+          </div>
+
+          <h3>
+            Servicios
+          </h3>
+
+          <p>
+            Talleres, tiendas, salones,
+            <br>
+            entre otros.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+
+        <!-- EDUCACIÓN -->
+
+        <button
+          class="category-card education"
+          data-cat="educacion"
+        >
+
+          <div class="cat-image">
+            🏫
+          </div>
+
+          <div class="cat-icon">
+            🎓
+          </div>
+
+          <h3>
+            Educación
+          </h3>
+
+          <p>
+            Colegios, escuelas
+            <br>
+            y jardines.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+
+        <!-- LUGARES -->
+
+        <button
+          class="category-card places"
+          data-cat="lugares"
+        >
+
+          <div class="cat-image">
+            🌳
+          </div>
+
+          <div class="cat-icon">
+            ♟
+          </div>
+
+          <h3>
+            Lugares
+          </h3>
+
+          <p>
+            Parques, espacios
+            <br>
+            públicos y más.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+
+        <!-- INSTITUCIONES -->
+
+        <button
+          class="category-card institutions"
+          data-cat="instituciones"
+        >
+
+          <div class="cat-image">
+            🏛️
+          </div>
+
+          <div class="cat-icon">
+            ♜
+          </div>
+
+          <h3>
+            Instituciones
+          </h3>
+
+          <p>
+            Municipalidad, comisaría,
+            <br>
+            centros y más.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+
+        <!-- TRANSPORTE -->
+
+        <button
+          class="category-card transport"
+          data-cat="transporte"
+        >
+
+          <div class="cat-image">
+            🚌
+          </div>
+
+          <div class="cat-icon">
+            ▣
+          </div>
+
+          <h3>
+            Transporte
+          </h3>
+
+          <p>
+            Terminales y colectivos
+            <br>
+            de la zona.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+
+        <!-- CULTURA -->
+
+        <button
+          class="category-card culture"
+          data-cat="cultura"
+        >
+
+          <div class="cat-image">
+            🎭
+          </div>
+
+          <div class="cat-icon">
+            ♣
+          </div>
+
+          <h3>
+            Cultura
+          </h3>
+
+          <p>
+            Tradiciones, festividades
+            <br>
+            y actividades culturales.
+          </p>
+
+          <i>
+            →
+          </i>
+
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- EXPLORADOR -->
+    <!-- ============================= -->
+
+    <section
+      class="explorer section"
+      id="mapa"
+    >
+
+      <div class="explorer-head">
+
+        <div>
+
+          <span
+            class="tiny-label"
+            id="currentLabel"
+          >
+            🍴 COMIDA
+          </span>
+
+          <h2 id="currentTitle">
+            Comida
+          </h2>
+
+          <p id="currentDesc">
+            Lugares para comer en Sausal.
+          </p>
+
+        </div>
+
+
+        <div class="local-search">
+
+          <span>
+            ⌕
+          </span>
+
+          <input
+            id="localSearch"
+            placeholder="Buscar dentro de esta categoría..."
+          >
+
+          <button id="clearLocal">
+            ×
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div
+        id="cards"
+        class="places-grid"
+      ></div>
+
+
+      <div
+        id="empty"
+        class="empty hidden"
+      >
+        No encontramos resultados en esta categoría.
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- INFORMACIÓN -->
+    <!-- ============================= -->
+
+    <section
+      class="info-grid section"
+      id="historia"
+    >
+
+
+      <!-- HISTORIA -->
+
+      <article class="info-card history-card">
+
+        <div class="info-icon">
+          ●
+        </div>
+
+        <div class="info-copy">
+
+          <h2>
+            La historia de Sausal
+          </h2>
+
+          <p>
+            Sausal es una comunidad con historia,
+            tradición y gente trabajadora.
+            La información educativa local la
+            reconoce como
+            <strong>
+              “Tierra del Eterno Sol”
+            </strong>
+            y destaca su identidad,
+            agricultura, comercio, educación
+            y celebraciones.
+          </p>
+
+          <button
+            class="info-btn"
+            data-open="history"
+          >
+            Conocer más →
+          </button>
+
+        </div>
+
+        <div class="mini-landscape"></div>
+
+      </article>
+
+
+      <!-- PROBLEMA Y SOLUCIÓN -->
+
+      <article class="info-card problem-card">
+
+        <div class="info-icon">
+          💡
+        </div>
+
+        <div class="info-copy">
+
+          <h2>
+            Problema y solución (EPT)
+          </h2>
+
+          <p>
+            En Sausal existe información
+            dispersa sobre lugares, servicios,
+            negocios, instituciones,
+            actividades y atractivos.
+            <strong>ProyecLab</strong>
+            la organiza para que sea más fácil
+            encontrarla y conocer la localidad.
+          </p>
+
+          <button
+            class="info-btn"
+            data-open="problem"
+          >
+            Ver más →
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <!-- CONTACTO -->
+
+      <article
+        class="info-card contact-card"
+        id="contacto"
+      >
+
+        <div class="info-icon">
+          ●
+        </div>
+
+        <div class="info-copy">
+
+          <h2>
+            Contáctanos
+          </h2>
+
+          <p>
+            ¿Tienes alguna recomendación
+            o quieres que agreguemos un lugar?
+          </p>
+
+          <a
+            class="wa-btn"
+            href="https://wa.me/51972372645?text=Hola%20ProyecLab,%20quiero%20recomendar%20un%20lugar%20de%20Sausal."
+            target="_blank"
+            rel="noopener"
+          >
+            ◉ &nbsp;
+            Enviar por WhatsApp →
+          </a>
+
+        </div>
+
+      </article>
+
+    </section>
+
+  </main>
+
+
+  <!-- ============================= -->
+  <!-- FOOTER -->
+  <!-- ============================= -->
+
+  <footer>
+
+    <div class="footer-brand">
+
+      <span class="footer-logo">
+        PL
+      </span>
+
+      <strong>
+        ProyecLab
+      </strong>
+
+      <small>
+        — SAUSAL —
+      </small>
+
+    </div>
+
+
+    <div class="footer-slogan">
+      ¡Juntos hacemos un mejor Sausal!
+    </div>
+
+
+    <div class="footer-nav">
+
+      <a href="#inicio">
+        Inicio
+      </a>
+
+      <a href="#categorias">
+        Categorías
+      </a>
+
+      <a href="#historia">
+        Historia
+      </a>
+
+      <a href="#mapa">
+        Mapa
+      </a>
+
+      <a href="#contacto">
+        Contacto
+      </a>
+
+    </div>
+
+
+    <div class="footer-right">
+
+      <strong>
+        ⛰ Sausal, nuestro hogar
+      </strong>
+
+      <small>
+        © 2026 ProyecLab · Sausal.
+        Todos los derechos reservados.
+      </small>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ============================= -->
+  <!-- VENTANA MODAL -->
+  <!-- ============================= -->
+
+  <div
+    class="modal hidden"
+    id="modal"
+  >
+
+    <div class="modal-box">
+
+      <button
+        class="modal-close"
+        id="closeModal"
+      >
+        ×
+      </button>
+
+      <div id="modalContent"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- BOTÓN VOLVER ARRIBA -->
+
+  <button
+    class="back-top hidden"
+    id="top"
+  >
+    ↑
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
